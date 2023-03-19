@@ -1,0 +1,42 @@
+#Student register api
+POST http://localhost:3030/api/students/register
+Content-Type: application/json
+
+{
+    "full_name":"Agatha A Msola",
+    "email":"agatha@aims.ac.tz",
+    "password":"123456789",
+    "subject":"Maths"
+}
+
+### Student login api
+
+POST  http://localhost:3030/api/students/login
+Content-Type: application/json
+
+{
+    "email":"agatha@aims.ac.tz",
+    "password":"123456789"
+}
+
+###Teachers register api
+POST http://localhost:3030/api/teachers/register
+Content-Type: application/json
+
+{
+    "full_name":"Bob W Kyeyune",
+    "email":"bob@aims.ac.tz",
+    "password":"123456789",
+    "subject":"Maths"
+}
+
+
+### Teachers login api
+
+POST  http://localhost:3030/api/teachers/login
+Content-Type: application/json
+
+{
+    "email":"bob@aims.ac.tz",
+    "password":"123456789"
+}

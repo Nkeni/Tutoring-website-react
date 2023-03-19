@@ -1,0 +1,25 @@
+.tutors {
+  .dashboard {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-right: 3px solid aquamarine;
+
+    img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+
+    span {
+      font-weight: bolder;
+    }
+
+    .edit-profile {
+      margin-bottom: 1rem;
+    }
+  }
+}

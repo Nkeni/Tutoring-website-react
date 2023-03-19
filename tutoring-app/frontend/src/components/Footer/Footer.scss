@@ -1,0 +1,20 @@
+.Footer {
+  height: 100px;
+  background-color: rgb(168, 175, 173);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  .social {
+    display: flex;
+
+    .linkedin {
+      margin-right: 1rem;
+    }
+
+    .linkedin,
+    .research-gate {
+      font-size: 1.5rem;
+    }
+  }
+}
